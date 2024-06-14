@@ -20,7 +20,9 @@ body{
 
 .banner{
     border-bottom: 1px solid #3ba1cd;
-    height: auto;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
@@ -39,6 +41,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 
@@ -145,5 +148,44 @@ button{
     background-clip: border-box;
     padding-left: 6rem;
     text-shadow: 2px 2px 0px #33A8DB;
+    border-bottom: 1px solid #3ba1cd;
     
 }
+
+
+#professional-challenges{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid #3ba1cd;
+}
+
+#professional-challenges h2{
+    padding: 2em 0rem 2rem 0rem;
+    color: #109dda;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#professional-challenges p {
+    text-align: center;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+footer  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    flex-direction: column;
+    padding: 2rem 0rem 2rem 0rem;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #3ba1cd;
+}
+
